@@ -25,6 +25,7 @@ The images are converted into greyscale images and compressed. Below are some ex
 I used a 3 convolutional layer CNN model followed by 3 max-pool layers using PyTorch. At the end, there are 2-fully connected layer, the first layer is a neural net of the images after passing through convolutional layer and max-pool layers and the last one being the one which will be a binary classifier, which outputs the inmage to be either a cat or dog. 
 
 ### Performance
+
 The evaluation metrics used for measuring the accuracy of the model is MSE(Mean Squared Error). Below is how the accuracy and loss varies between training and validation set -
 
 <img src='https://github.com/Ruparna25/Image_Classification_CNN/blob/main/Images/performance.JPG' width=600 height=400></img>
